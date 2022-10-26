@@ -1,0 +1,29 @@
+cookie\_tester package
+======================
+
+Submodules
+----------
+
+cookie\_tester.cli module
+-------------------------
+
+.. automodule:: cookie_tester.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cookie\_tester.main module
+--------------------------
+
+.. automodule:: cookie_tester.main
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cookie_tester
+   :members:
+   :undoc-members:
+   :show-inheritance:
