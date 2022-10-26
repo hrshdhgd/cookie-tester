@@ -1,6 +1,7 @@
 """Command line interface for cookie-tester."""
-import click
 import logging
+
+import click
 
 from cookie_tester import __version__
 from cookie_tester.main import demo
@@ -10,6 +11,7 @@ __all__ = [
 ]
 
 logger = logging.getLogger(__name__)
+
 
 @click.group()
 @click.option("-v", "--verbose", count=True)
@@ -30,11 +32,11 @@ def main(verbose: int, quiet: bool):
     if quiet:
         logger.setLevel(level=logging.ERROR)
 
+
 @main.command()
 def run():
     """Run the cookie-tester's demo command."""
     demo()
-     
 
 
 if __name__ == "__main__":
